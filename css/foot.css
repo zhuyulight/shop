@@ -1,0 +1,47 @@
+footer{
+	width: 1604px;
+	height: 210px;
+	background: #333333;	
+	margin: 0 auto;
+	position: relative;
+	top: -8px;
+}
+footer ul{
+	margin-top: 10px;
+	float: left;
+	height: 80px;
+	width: 635px;
+	line-height: 80px;
+	margin-left: 150px;
+	border-bottom: 1px dashed gray;
+}
+footer ul li a{
+	color: white;
+	padding-left: 20px;
+	font-size: 16px;
+	
+}
+.f_w p{
+	line-height: 24px;
+	position: absolute;
+	color: gray;
+	top: 110px;
+	left: 150px;
+}
+.tel_img{
+	position: absolute;
+	right: 545px;
+	top:95px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/iconlist.png) no-repeat;
+	background-position: 3px -138px;
+}
+.phone{
+	color: gray;
+	line-height: 28px;
+	font-size: 20px;
+	position: absolute;
+	right: 285px;
+	top: 90px;
+}

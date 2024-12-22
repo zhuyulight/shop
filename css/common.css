@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after{
+    /*所有的标签，和伪元素都选中*/
+    margin: 0;
+    padding: 0;
+    /*移动端常用布局是非固定元素*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*轻触 轻击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+body{
+    font-size: 14px;
+    color: #333333;
+    font-family: "Microsoft YaHei UI",sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+input,textarea{
+    border: none;
+    outline: none;
+    /*不允许改变尺寸*/
+    resize: none;
+    /*元素的外观 none没有任何样式*/
+    -webkit-appearance: none;
+}
+ul li{
+	float: left;
+}

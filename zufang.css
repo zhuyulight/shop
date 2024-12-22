@@ -1,0 +1,131 @@
+.content{
+	width: 1242px;
+	height: 1500px;
+	margin: 0px auto;
+	position: relative;
+	/*border: 1px solid grey;*/
+	margin: 0px auto;
+	position: relative;
+}
+.content>span{
+	color: grey;
+	margin-left: 10px;
+}
+.top{
+	text-align: center;
+	line-height: 50px;
+	width:1240px ;
+	height: 100px;
+	background: #FBFBFB;
+	margin: 0px auto;
+	border: 1px solid grey;
+	border-top: 2px solid green;
+}
+.top>h2{
+	float: left;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.top>button{
+	background: url(images/iconlist.png) no-repeat;
+	background-position: -70px 10px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+}
+.up{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.up_img{
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 500px;
+	height: 100px;
+	overflow: hidden;
+	border: 1px solid gainsboro;
+}
+.up_img>ul{
+	width: 1400px;
+	height: 100px;
+	margin-top: 10px;
+	/*background: green;*/
+	/*overflow: hidden;*/
+	float: left;
+}
+.up_img>ul>li{
+	width: 80px;
+	margin-top: 10px;
+	margin-left: -30px;
+	height: 60px;
+}
+.up_img>ul>li>a>img{
+	width: 100%;
+	height: 100%;
+}
+.r_wz{
+	position: absolute;
+	top: 220px;
+	left: 560px;
+}
+.r_wz>p{
+	margin-left: 50px;
+	margin-top:30px;
+}
+.r_wz>p>span{
+	margin-right: 120px;
+}
+.pepo{
+	position: absolute;
+	right: 255px;
+	/*background: red;*/
+	top: 570px;
+}
+.pepo>p{
+	margin-left: 90px;
+	font-size: 18px;
+	margin-top: -75px;
+}
+.pepo>div{
+	margin-left: 90px;
+	margin-top: 5px;
+}
+.xq{
+	width: 1240px;
+	line-height: 50px;
+	height: 50px;
+	background: #F5F5F5;
+	border-bottom: 2px solid green;
+}
+.xq>span{
+	text-align: center;
+	color: white;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	background: green;
+}
+.xq>span::before{
+            content: "";
+            width: 0px;
+            height: 0px;
+            display: inline-block;
+            border: solid 10px transparent ;
+            border-top-color: green;
+            position: absolute;
+            right: 1188px;
+            top: 715px;
+        }
+
+.last_wz{
+	width: 1190px;
+	padding-left: 50px;
+	height: 260px;
+}
+.last_img{
+	margin-left: 275px;
+}
